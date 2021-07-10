@@ -1,0 +1,13 @@
+footer {
+    min-height: 100px;
+    background-color: #020111;
+    color: white;
+}
+
+#computer-screen-image {
+    background-image: url("../../images/comp-screen.png");
+    background-repeat: no-repeat;
+    width: 128px;
+    height: 103px; 
+    background-size: cover; 
+}
