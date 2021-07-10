@@ -1,0 +1,60 @@
+#post-cards-container {
+    width: 100%;
+  }
+  
+  .posts {
+      /* Add shadows to create the "card" effect */
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      transition: 0.3s;
+      width: 80%;
+    }
+    
+    /* On mouse-over, add a deeper shadow */
+  .posts:hover {
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+    
+    /* Add some padding inside the card container */
+  .post-style {
+      padding: 2px 16px;
+    }
+  
+  .posts-image-container {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      padding: 20px 0 0 0;
+  }
+  
+  .post-image {
+      height: 80px;
+      width: 130px;
+      display: flex;
+      text-align: center;
+  }
+  
+  .card-info {
+      padding: 15px;
+      overflow: hidden;
+      text-overflow: clip;
+  }
+  
+  .card-info h4 {
+    text-align: center;
+  }
+  
+  .card-info p {
+    font-size: 80%;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  @media (min-width: 300px) {
+    .posts {
+      width: 250px;
+    }
+  
+    .card-info {
+      overflow: visible;
+    }
+  }
