@@ -4,11 +4,13 @@ document.addEventListener("DOMContentLoaded", function () {
     if (document.getElementById('indexHeader')) {
         document.getElementById('indexHeader').innerHTML = `
             <h3>Linguistic Technology</h3>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="pages/blog.html">Blog</a></li>
-                <li><a href="pages/contact.html">Contact</a></li>
-            </ul>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="pages/blog.html">Blog</a></li>
+                    <li><a href="pages/contact.html">Contact</a></li>
+                </ul>
+            </nav>
         `
     };
 
@@ -16,11 +18,13 @@ document.addEventListener("DOMContentLoaded", function () {
     if (document.getElementById('pagesHeader')) {
         document.getElementById('pagesHeader').innerHTML = `
             <h3>Linguistic Technology</h3>
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
         `
     };
 

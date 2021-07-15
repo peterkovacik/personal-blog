@@ -1,3 +1,99 @@
 @import 'style-rules/reset.css';
 @import 'style-rules/header.css';
 @import 'style-rules/footer.css';
+@import 'style-rules/buttons.css';
+
+#wrapper-contact {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#self-image {
+    display: flex;
+    justify-content: center; 
+}
+
+#self-image img {
+    margin-bottom: 20px;
+    width: 250px;
+    height: 250px;
+}
+
+#contact-description {
+    padding: 15px 10px;
+}
+
+#contact-description a {
+    text-decoration: none;
+    color: #42594c;
+    font-weight: bold;
+}
+
+fieldset {
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid #aaa;
+    border-radius: 15px;
+    padding: 15px 3% 0 3%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+fieldset h2 {
+    font-size: 1.1em;
+}
+input, select {
+    border: 1px solid #aaa;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+input[type=text], input[type=email], textarea {
+    width: 100%; 
+    border: 1px #aaa solid;
+}
+
+textarea {
+    height: 12em;
+}
+
+#required-field-text {
+    font-size: 75%;
+}
+
+#contact-button {
+    border: 1px #777 solid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: rgb(137, 145, 146);
+    text-shadow: 1px 1px #000;
+}
+
+#contact-button:hover {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#google-map {
+    display: flex;
+    justify-content: center;
+}
+
+#google-map iframe {
+    width: 100%;
+    border: 0;
+    min-height: 300px;
+    padding: 25px 0;
+}

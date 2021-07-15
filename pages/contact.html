@@ -12,11 +12,44 @@
 </head>
 <body>
 <header id="pagesHeader"></header>
-<div id="wrapper-home">
-    <h1>Contact</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vestibulum risus eu mattis ultricies. Curabitur vel quam a odio convallis.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vestibulum risus eu mattis ultricies. Curabitur vel quam a odio convallis.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vestibulum risus eu mattis ultricies. Curabitur vel quam a odio convallis.</p>
+<div id="wrapper-contact">
+    <h1>About</h1>
+    
+    <figure id="self-image">
+        <img src="../images/myimage.jpg">
+    </figure>
+    
+    <p id="contact-description">My name is Peter Kovacik. In addition to my interest in Linguistics and Arabic translation, I am a Front-End developer specializing in responsive web design, WordPress, and JavaScript. I make amazing websites for startups, small businesses, personal websites, and E-commerce stores for Sage Leaf Design. Please contact <a href="https://www.sageleafdesign.com/">Sage Leaf Design</a> to develop your custom website at an affordable price. </p>
+    
+    <fieldset id="contact-form">
+        <legend><h2>Contact Sage Leaf Design</h2></legend>
+        <form id="myform" name="myform">
+        <p>
+            <label for="name">Name *:<br></label>
+            <input type="text" id="name" name="name"
+            placeholder="name" autofocus required>   
+        </p> 
+        <p>
+            <label for="email">Email *:<br></label>
+            <input type="email" id="email" name="email"
+            placeholder="email address" required>   
+        </p> 
+        <p>Message *:</p>
+        <textarea id="comments" name="comments" required placeholder="enter message"></textarea> 
+        <p id="required-field-text">* Required Fields</p>
+        <button id="contact-button" type="submit">Submit</button>
+    
+        <p>&nbsp;</p>
+            
+        </form>
+    </fieldset>
+    
+    
+       
+
+    <div id="google-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d182055.9191152004!2d-88.13057633056974!3d44.52285984071163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8802e2e809b380f3%3A0x6370045214dcf571!2sGreen%20Bay%2C%20WI!5e0!3m2!1sen!2sus!4v1626381939209!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe>
+</div>
 </div>
 <footer id="footer"></footer>
 

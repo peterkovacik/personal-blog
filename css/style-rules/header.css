@@ -1,3 +1,39 @@
 header {
-    background-color: #bbb;
+    background-color: rgb(3, 72, 77);
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    padding: 20px 10px 20px 0;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #ddd;
+}
+
+li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+  }
+  
+li:last-child {
+    /* border-bottom: none; */
+    border-bottom: 1px solid #555;
+}
+
+nav li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    }
+    
+    /* Change the link color on hover */
+nav li a:hover {
+    background-color: rgb(119, 155, 158);
+    color: white;
 }
