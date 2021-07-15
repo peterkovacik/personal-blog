@@ -1,25 +1,25 @@
 document.addEventListener("DOMContentLoaded", function () {
 
     // headers on main pages
-    if (document.getElementById('header')) {
-        document.getElementById('header').innerHTML = `
+    if (document.getElementById('indexHeader')) {
+        document.getElementById('indexHeader').innerHTML = `
             <h3>Linguistic Technology</h3>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="pages/blog.html">Blog</a></li>
+                <li><a href="pages/contact.html">Contact</a></li>
             </ul>
         `
     };
 
     // headers in posts
-    if (document.getElementById('postHeader')) {
-        document.getElementById('postHeader').innerHTML = `
+    if (document.getElementById('pagesHeader')) {
+        document.getElementById('pagesHeader').innerHTML = `
             <h3>Linguistic Technology</h3>
             <ul>
                 <li><a href="../index.html">Home</a></li>
-                <li><a href="../blog.html">Blog</a></li>
-                <li><a href="../contact.html">Contact</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         `
     };
