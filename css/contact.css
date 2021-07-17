@@ -29,10 +29,18 @@ h1 {
     padding: 15px 10px;
 }
 
-#contact-description a {
+#sage-link { 
     text-decoration: none;
     color: #42594c;
     font-weight: bold;
+}
+
+#sage-link:hover {
+    text-decoration: underline;
+  }
+  
+#sage-link:active {
+    text-decoration: underline;
 }
 
 fieldset {

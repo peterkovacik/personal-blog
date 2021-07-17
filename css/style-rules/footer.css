@@ -3,7 +3,11 @@ footer {
     background-color: rgb(3, 72, 77);
     color: white;
     border-top: 1px solid #555;
-    padding: 15px 25px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
 }
 
 #computer-screen-image {
@@ -12,8 +16,41 @@ footer {
     width: 128px;
     height: 103px; 
     background-size: cover; 
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #footer-text {
-    margin: 15px 0 5px 0;
+    margin-bottom: 10px;
+}
+
+#social-media-icons {
+    margin-bottom: 10px;
+}
+
+@media (min-width: 550px) {
+
+    footer {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 65px 65px;
+        grid-template-areas:
+        "img txt"
+        "img soc-media";
+    }
+
+    #computer-screen-image {
+        grid-area: img;
+    }
+
+    #footer-text {
+        grid-area: txt;
+    }
+
+    #social-media-icons {
+        grid-area: soc-media;
+    }
+
+
+
 }
