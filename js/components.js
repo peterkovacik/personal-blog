@@ -35,10 +35,10 @@ document.addEventListener("DOMContentLoaded", function () {
             <div id="footer-text">
                 <p>&copy; 2021 | Peter Kovacik</p>
             </div>
-            <div id="social-media-icons>
-                <a href="" id="twitter-link"><img src="images/twitter-500-black.gif" alt="twitter-icon" height="50" width="50"></a>
-                <a href="" id="facebook-link"><img src="images/facebook-500-black.gif" alt="facebook-icon" height="50" width="50"></a>
-                <a href="" id="linkedin-link"><img src="images/linkedin-black.gif" alt="linkedin-icon" height="50" width="50"></a>
+            <div id="social-media-icons">
+                <a href="https://twitter.com/" id="twitter-link"><img src="images/twitter-500-black.gif" alt="twitter-icon"></a>
+                <a href="https://www.facebook.com/" id="facebook-link"><img src="images/facebook-500-black.gif" alt="facebook-icon"></a>
+                <a href="https://www.linkedin.com/" id="linkedin-link"><img src="images/linkedin-black.gif" alt="linkedin-icon"></a>
             </div>
            
         `
@@ -51,10 +51,10 @@ document.addEventListener("DOMContentLoaded", function () {
             <div id="footer-text">
                 <p>&copy; 2021 | Peter Kovacik</p>
             </div>
-            <div id="social-media-icons>
-                <a href="" id="twitter-link"><img src="../images/twitter-500-black.gif" alt="twitter-icon" height="50" width="50"></a>
-                <a href="https://www.facebook.com/" id="facebook-link"><img src="../images/facebook-500-black.gif" alt="facebook-icon" height="50" width="50"></a>
-                <a href="https://www.linkedin.com/" id="linkedin-link"><img src="../images/linkedin-black.gif" alt="linkedin-icon" height="50" width="50"></a>
+            <div id="social-media-icons">
+                <a href="https://twitter.com/" id="twitter-link"><img src="../images/twitter-500-black.gif" alt="twitter-icon"></a>
+                <a href="https://www.facebook.com/" id="facebook-link"><img src="../images/facebook-500-black.gif" alt="facebook-icon"></a>
+                <a href="https://www.linkedin.com/" id="linkedin-link"><img src="../images/linkedin-black.gif" alt="linkedin-icon"></a>
             </div>
            
         `

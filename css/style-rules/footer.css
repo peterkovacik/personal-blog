@@ -21,11 +21,27 @@ footer {
 }
 
 #footer-text {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 #social-media-icons {
     margin-bottom: 10px;
+}
+
+#twitter-link img { 
+    width: 35px;
+    height: 35px;
+}
+
+
+#facebook-link img {
+    width: 35px;
+    height: 35px;
+}
+
+#linkedin-link img {
+    width: 35px;
+    height: 35px;
 }
 
 @media (min-width: 550px) {
@@ -33,10 +49,11 @@ footer {
     footer {
         display: grid;
         grid-template-columns: 50% 50%;
-        grid-template-rows: 65px 65px;
+        grid-template-rows: 65px 65px 20px;
         grid-template-areas:
-        "img txt"
-        "img soc-media";
+        "img soc-media"
+        "img soc-media"
+        "txt soc-media";
     }
 
     #computer-screen-image {
