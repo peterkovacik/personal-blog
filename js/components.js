@@ -31,33 +31,40 @@ document.addEventListener("DOMContentLoaded", function () {
     // footers
     if (document.getElementById('footerIndex')) {
         document.getElementById('footerIndex').innerHTML = `
-            <div id="computer-screen-image"></div>
-            <div id="footer-text">
-                <p>&copy; 2021 | Peter Kovacik</p>
+            <figure id="computer-screen-image">
+                <img src="images/comp-screen.png">
+                <figcaption id="computer-screen-caption">Linguistic Technology</figcaption>
+            </figure>
+            <div id="right-footer">
+                <div id="social-media-icons">
+                    <a href="https://twitter.com/" id="twitter-link" target="_blank"><img src="images/twitter-500-black.gif" alt="twitter-icon" ></a>
+                    <a href="https://www.facebook.com/" id="facebook-link" target="_blank"><img src="images/facebook-500-black.gif" alt="facebook-icon"></a>
+                    <a href="https://www.linkedin.com/" id="linkedin-link" target="_blank"><img src="images/linkedin-black.gif" alt="linkedin-icon"></a>
+                </div>
+                <div id="footer-text">
+                    <p>&copy; 2021 | Peter Kovacik</p>
+                </div>
             </div>
-            <div id="social-media-icons">
-                <a href="https://twitter.com/" id="twitter-link"><img src="images/twitter-500-black.gif" alt="twitter-icon"></a>
-                <a href="https://www.facebook.com/" id="facebook-link"><img src="images/facebook-500-black.gif" alt="facebook-icon"></a>
-                <a href="https://www.linkedin.com/" id="linkedin-link"><img src="images/linkedin-black.gif" alt="linkedin-icon"></a>
-            </div>
-           
         `
     };
 
     // footers
     if (document.getElementById('footerPages')) {
         document.getElementById('footerPages').innerHTML = `
-            <div id="computer-screen-image"></div>
-            
-            <div id="social-media-icons">
-                <a href="https://twitter.com/" id="twitter-link"><img src="../images/twitter-500-black.gif" alt="twitter-icon"></a>
-                <a href="https://www.facebook.com/" id="facebook-link"><img src="../images/facebook-500-black.gif" alt="facebook-icon"></a>
-                <a href="https://www.linkedin.com/" id="linkedin-link"><img src="../images/linkedin-black.gif" alt="linkedin-icon"></a>
+            <figure id="computer-screen-image">
+                <img src="../images/comp-screen.png">
+                <figcaption id="computer-screen-caption">Linguistic Technology</figcaption>
+             </figure>
+            <div id="right-footer">
+                <div id="social-media-icons">
+                    <a href="https://twitter.com/" id="twitter-link" target="_blank"><img src="../images/twitter-500-black.gif" alt="twitter-icon"></a>
+                    <a href="https://www.facebook.com/" id="facebook-link" target="_blank"><img src="../images/facebook-500-black.gif" alt="facebook-icon"></a>
+                    <a href="https://www.linkedin.com/" id="linkedin-link" target="_blank"><img src="../images/linkedin-black.gif" alt="linkedin-icon"></a>
+                </div>
+                <div id="footer-text">
+                    <p>&copy; 2021 | Peter Kovacik</p>
+                </div>
             </div>
-            <div id="footer-text">
-                <p>&copy; 2021 | Peter Kovacik</p>
-            </div>
-           
         `
     };
 
