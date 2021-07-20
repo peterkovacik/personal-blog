@@ -43,7 +43,7 @@ h1 {
     text-decoration: underline;
 }
 
-fieldset {
+#contact-form {
     width: 100%;
     margin: 0 auto;
     border: 1px solid #aaa;
@@ -104,4 +104,48 @@ textarea {
     border: 0;
     min-height: 300px;
     padding: 25px 0;
+}
+
+@media (min-width: 700px) {
+
+    #wrapper-contact {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto;
+        grid-template-areas:
+        "cTitle cTitle"
+        "self cForm"
+        "cDescrip cForm"
+        "map map";
+        justify-items: center;
+        justify-content: space-evenly;
+        align-items: center; 
+        gap: 0px 10%;
+        margin-bottom: 35px; 
+    }
+
+    #wrapper-contact h1 {
+        grid-area: cTitle;
+        margin-bottom: 35px
+    }
+
+    #self-image {
+        grid-area: self;
+    }
+
+    #contact-description {
+        grid-area: cDescrip;
+    }
+
+    #contact-form {
+        grid-area: cForm;
+        margin-top: 0;
+    }
+
+    #google-map {
+        grid-area: map;
+        width: 60%;
+        min-height: 450px;
+        margin-top: 30px;
+    }
 }
