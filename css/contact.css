@@ -12,7 +12,7 @@
 
 #wrapper-contact h1 {
     text-align: center;
-    margin-bottom: 50px;
+    margin: 20px 0;
     font-size: 2em;
 }
 
@@ -23,7 +23,7 @@
     background-size: contain;
     width: 100%;
     background-position: center;
-    margin: 30px 0 35px 0;
+    margin: 30px 0 45px 0;
 }
 
 #self-image {
@@ -39,6 +39,7 @@
 
 #contact-description {
     padding: 15px 10px;
+    font-size: 1.25em;
 }
 
 #sage-link { 
@@ -142,10 +143,10 @@ textarea {
         grid-template-rows: auto;
         grid-template-areas:
         "sage-leaf sage-leaf"
-        "cTitle cTitle"
-        "self cForm"
-        "cDescrip cForm"
+        "self cDescrip"
+        "cForm cForm"
         "map map";
+        
         justify-items: center;
         justify-content: space-evenly;
         align-items: center; 
@@ -164,13 +165,20 @@ textarea {
         grid-area: self;
     }
 
+    #self-image img {
+        width: 300px;
+        height: 300px;
+    }
+
     #contact-description {
         grid-area: cDescrip;
+        width: 100%;
     }
 
     #sage-leaf-logo {
         grid-area: sage-leaf;
         margin-bottom: 10px;
+        min-height: 250px;
     }
 
     #contact-form {
@@ -185,3 +193,11 @@ textarea {
         margin-top: 30px;
     }
 }
+
+/*
+@media (min-width: 1100px) {
+    #contact-description {
+        font-size: 1.5em;
+    }
+}
+*/
