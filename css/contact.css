@@ -33,12 +33,12 @@
 
 #self-image img {
     margin-bottom: 20px;
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
 }
 
 #contact-description {
-    padding: 15px 10px;
+    padding: 15px 0;
     font-size: 1.25em;
 }
 
@@ -129,11 +129,21 @@ textarea {
     }
 }
 
+@media (min-width: 345px) {
+    #self-image img {
+        width: 230px;
+        height: 230px;
+    }
+}
+
 @media (min-width: 400px) {
     #sage-leaf-logo {
         min-height: 150px;
     }
 }
+
+
+
 
 @media (min-width: 700px) {
 
@@ -144,15 +154,16 @@ textarea {
         grid-template-areas:
         "sage-leaf sage-leaf"
         "self cDescrip"
-        "cForm cForm"
-        "map map";
+        "cForm cForm";
+        /* "map map"; */
         
         justify-items: center;
         justify-content: space-evenly;
         align-items: center; 
-        gap: 30px 10%;
+        gap: 45px 10%;
         margin-bottom: 25px; 
         padding-top: 15px;
+        width: 70%;
     }
 
     
@@ -166,13 +177,14 @@ textarea {
     }
 
     #self-image img {
-        width: 300px;
-        height: 300px;
+        width: 205px;
+        height: 205px;
     }
 
     #contact-description {
         grid-area: cDescrip;
         width: 100%;
+        font-size: 1em;
     }
 
     #sage-leaf-logo {
@@ -184,6 +196,11 @@ textarea {
     #contact-form {
         grid-area: cForm;
         margin-top: 0;
+        width: 100%;
+    }
+
+    textarea {
+        height: 20em;
     }
 
     #google-map {
@@ -191,6 +208,17 @@ textarea {
         width: 100%;
         min-height: 500px;
         margin-top: 30px;
+    }
+}
+
+@media (min-width: 875px) {
+    #self-image img {
+        width: 250px;
+        height: 250px;
+    }
+
+    #contact-description {
+        font-size: 1.25em;
     }
 }
 
