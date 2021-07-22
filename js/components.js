@@ -69,14 +69,14 @@ document.addEventListener("DOMContentLoaded", function () {
     // recent posts
     if (document.getElementById('recentPosts')) {
         document.getElementById('recentPosts').innerHTML = `
-            <h2>Recent Posts</h2>
-            <ul>
-                <li><a href="post1.html">Post 1</a></li>
-                <li><a href="post2.html">Post 2</a></li>
-                <li><a href="post3.html">Post 3</a></li>
-                <li><a href="post4.html">Post 4</a></li>
-                <li><a href="post5.html">Post 5</a></li>
-                <li><a href="post6.html">Post 6</a></li>
+            <h2 class="recent-posts-header">Recent Posts</h2>
+            <ul class="recent-posts-list">
+                <li><a href="post1.html">What is Localization?</a></li>
+                <li><a href="post2.html">Why WordPress?</a></li>
+                <li><a href="post3.html">WordPress Basics</a></li>
+                <li><a href="post4.html">WordPress Localization</a></li>
+                <li><a href="post5.html">Cross Cultural Design</a></li>
+                <li><a href="post6.html">Global Digital Marketing</a></li>
             </ul>
         `
     };

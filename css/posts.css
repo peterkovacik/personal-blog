@@ -2,3 +2,16 @@
 @import 'style-rules/fonts.css';
 @import 'style-rules/header.css';
 @import 'style-rules/footer.css';
+
+.post-title {
+    text-align: center;
+}
+
+.recent-posts-header {
+    text-align: center;
+}
+
+/* fix this style */
+.recent-posts-list li a {
+    text-decoration: none;
+}
