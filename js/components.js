@@ -7,7 +7,6 @@ document.addEventListener("DOMContentLoaded", function () {
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="pages/blog.html">Blog</a></li>
                     <li><a href="pages/contact.html">Contact Sage Leaf</a></li>
                 </ul>
             </nav>
@@ -21,7 +20,6 @@ document.addEventListener("DOMContentLoaded", function () {
             <nav>
                 <ul>
                     <li><a href="../index.html">Home</a></li>
-                    <li><a href="blog.html">Blog</a></li>
                     <li><a href="contact.html">Contact Sage Leaf</a></li>
                 </ul>
             </nav>

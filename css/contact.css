@@ -185,6 +185,7 @@ textarea {
         grid-area: cDescrip;
         width: 100%;
         font-size: 1em;
+        margin-right: 30%;
     }
 
     #sage-leaf-logo {
