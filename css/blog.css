@@ -18,6 +18,16 @@
     padding: 20px 0;
 }
 
+#hello-foreign-languages {
+    min-height: 150px;
+    background-image: url('../images/hello-foreign-languages.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    background-position: center;
+    margin-bottom: 35px;
+}
+
 #post-cards-container {
     display: grid;
     grid-template-columns: 100%;
@@ -73,6 +83,11 @@
     #section1-home {
         padding: 10px 7% 60px 7%;
     }    
+
+    #hello-foreign-languages {
+        min-height: 250px;
+    }
+
 
     #post-cards-container {
         display: grid;

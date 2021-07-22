@@ -12,8 +12,8 @@
 
 #wrapper-contact h1 {
     text-align: center;
-    padding-top: 10px;
     margin-bottom: 50px;
+    font-size: 2em;
 }
 
 #sage-leaf-logo {
@@ -23,7 +23,7 @@
     background-size: contain;
     width: 100%;
     background-position: center;
-    margin-bottom: 35px;
+    margin: 30px 0 35px 0;
 }
 
 #self-image {
@@ -63,6 +63,10 @@
     padding: 15px 3% 0 3%;
     margin-bottom: 30px;
     margin-top: 30px;
+}
+
+#contact-form legend h2 {
+    font-size: 1.5em;
 }
 
 fieldset h2 {
@@ -137,16 +141,17 @@ textarea {
         grid-template-columns: 50% 50%;
         grid-template-rows: auto;
         grid-template-areas:
+        "sage-leaf sage-leaf"
         "cTitle cTitle"
         "self cForm"
         "cDescrip cForm"
-        "sage-leaf sage-leaf"
         "map map";
         justify-items: center;
         justify-content: space-evenly;
         align-items: center; 
-        gap: 0px 10%;
-        margin-bottom: 35px; 
+        gap: 30px 10%;
+        margin-bottom: 25px; 
+        padding-top: 15px;
     }
 
     
@@ -165,7 +170,7 @@ textarea {
 
     #sage-leaf-logo {
         grid-area: sage-leaf;
-        margin-bottom: 45px;
+        margin-bottom: 10px;
     }
 
     #contact-form {
