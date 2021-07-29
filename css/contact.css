@@ -145,17 +145,16 @@ textarea {
 
     #wrapper-contact {
         display: grid;
-        grid-template-columns: 40% 40%;
+        grid-template-columns: repeat(3, 33.3%);
         grid-template-rows: auto;
         grid-template-areas:
-        "cDescrip self"
-        "sage-leaf cForm";
-       
-        
+        "self self self"
+        "cDescrip cDescrip cDescrip"
+        "sage-leaf cForm cForm";
         justify-items: center;
         justify-content: space-evenly;
         align-items: center; 
-        gap: 45px 10%;
+        gap: 0 10%;
         margin-bottom: 25px; 
         padding-top: 15px;
         width: 70%;
@@ -166,7 +165,10 @@ textarea {
     #wrapper-contact h1 {
         grid-area: cTitle;
     }
-    
+
+    #self-image, #contact-description {
+        margin-top: 15px;
+    }
 
     #self-image {
         grid-area: self;
@@ -179,20 +181,22 @@ textarea {
 
     #contact-description {
         grid-area: cDescrip;
-        width: 100%;
-        font-size: 1em;
-        margin-right: 30%;
+        width: 60%;
+        font-size: 1.1em;
+        line-height: 1.75;
+    }
+
+    #sage-leaf-logo, #contact-form {
+        margin-top: 75px;
     }
 
     #sage-leaf-logo {
         grid-area: sage-leaf;
-        margin: 0 0 10px 0;
-        min-height: 150px;
+        min-height: 200px;
     }
 
     #contact-form {
         grid-area: cForm;
-        margin: 0;
         width: 100%;
     }
 
@@ -224,7 +228,7 @@ textarea {
     } */
 
     #sage-leaf-logo {
-        min-height: 200px;
+        min-height: 250px;
     }
 }
 
