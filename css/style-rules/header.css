@@ -66,8 +66,12 @@ nav li a:hover {
         border: none;
     }
 
-    nav li:first-child {
+    nav li {
         border-right: 1px solid #555;
+    }
+
+    nav li:first-child {
+        border-left: 1px solid #555;
     }
 
     nav li a:hover {

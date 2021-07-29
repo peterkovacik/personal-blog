@@ -13,9 +13,16 @@
     padding: 10px 5% 60px 5%;
 }
 
-#section1-home h1 {
+#section1-home h1, h4 {
     text-align: center;
-    padding: 20px 0;
+}
+
+#section1-home h1 {
+    padding: 20px 0 10px 0;
+}
+
+#section1-home h4 {
+    padding-bottom: 30px;
 }
 
 #hello-foreign-languages {
