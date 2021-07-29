@@ -4,6 +4,11 @@
 @import 'style-rules/footer.css';
 @import 'style-rules/buttons.css';
 
+.page-title {
+    text-align: center;
+    padding-top: 25px;
+}
+
 #wrapper-contact {
     width: 80%;
     margin: 0 auto;
@@ -28,6 +33,7 @@
 #self-image {
     display: flex;
     justify-content: center; 
+    margin-top: 45px;
 }
 
 #self-image img {
@@ -37,8 +43,9 @@
 }
 
 #contact-description {
-    padding: 15px 0;
+    /*padding: 15px 0; */
     font-size: 1.25em;
+    margin-top: 45px;
 }
 
 #sage-link { 
@@ -110,18 +117,6 @@ textarea {
     text-shadow: 2px 2px 4px #000000;
 }
 
-#google-map {
-    display: flex;
-    justify-content: center;
-}
-
-#google-map iframe {
-    width: 100%;
-    border: 0;
-    min-height: 300px;
-    padding: 25px 0;
-}
-
 @media (min-width: 238px) {
     #sage-leaf-logo {
         min-height: 150px;
@@ -146,15 +141,16 @@ textarea {
 
 @media (min-width: 700px) {
 
+    
+
     #wrapper-contact {
         display: grid;
-        grid-template-columns: 10% 40% 40% 10%;
+        grid-template-columns: 40% 40%;
         grid-template-rows: auto;
         grid-template-areas:
-        "sage-leaf sage-leaf sage-leaf sage-leaf"
-        "self self cDescrip cDescrip"
-        "cForm cForm cForm cForm";
-        /* "map map"; */
+        "cDescrip self"
+        "sage-leaf cForm";
+       
         
         justify-items: center;
         justify-content: space-evenly;
@@ -163,6 +159,7 @@ textarea {
         margin-bottom: 25px; 
         padding-top: 15px;
         width: 70%;
+        
     }
 
     
@@ -189,13 +186,13 @@ textarea {
 
     #sage-leaf-logo {
         grid-area: sage-leaf;
-        margin-bottom: 10px;
-        min-height: 250px;
+        margin: 0 0 10px 0;
+        min-height: 150px;
     }
 
     #contact-form {
         grid-area: cForm;
-        margin-top: 0;
+        margin: 0;
         width: 100%;
     }
 
@@ -203,12 +200,7 @@ textarea {
         height: 20em;
     }
 
-    #google-map {
-        grid-area: map;
-        width: 100%;
-        min-height: 500px;
-        margin-top: 30px;
-    }
+
 }
 
 @media (min-width: 875px) {
@@ -223,12 +215,16 @@ textarea {
 }
 
 
-@media (min-width: 950px) {
-    #wrapper-contact {
+@media (min-width: 1200px) {
+   /* #wrapper-contact {
         grid-template-areas:
-        "sage-leaf sage-leaf sage-leaf sage-leaf"
-        "self self cDescrip cDescrip"
+       
+        "sage-leaf sage-leaf cDescrip cDescrip"
         ". cForm cForm .";
+    } */
+
+    #sage-leaf-logo {
+        min-height: 200px;
     }
 }
 
