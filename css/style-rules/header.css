@@ -8,6 +8,7 @@ h3 {
     padding: 20px 10px 20px 0;
     font-family:'Orbitron-SemiBold', 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
 }
+
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -16,23 +17,61 @@ nav ul {
     background-color: #ddd;
 }
 
-li {
+nav li {
     text-align: center;
     border-bottom: 1px solid #555;
   }
   
-li:last-child {
-    border-bottom: 1px solid #555;
-}
+
 
 nav li a {
     display: block;
     color: #000;
     padding: 8px 16px;
     text-decoration: none;
-    }
+}
     
 nav li a:hover {
     background-color: rgb(119, 155, 158);
     color: white;
+}
+
+
+
+@media (min-width: 600px) {
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header h3 {
+        margin-left: 1.5%;
+        padding: 13px 0;
+    }
+
+    nav ul {
+        background-color: rgb(3, 72, 77);
+        display: flex;
+    }
+
+    nav li a {
+        display: flex;
+        color: #fff;
+        padding: 16px 28px;
+    }
+
+    nav li {
+        border: none;
+    }
+
+    nav li:first-child {
+        border-right: 1px solid #555;
+    }
+
+    nav li a:hover {
+       
+        color: #000;
+    }
 }
