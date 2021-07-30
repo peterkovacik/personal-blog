@@ -43,7 +43,6 @@
 }
 
 #contact-description {
-    /*padding: 15px 0; */
     font-size: 1.25em;
     margin-top: 45px;
 }
@@ -136,12 +135,7 @@ textarea {
     }
 }
 
-
-
-
 @media (min-width: 700px) {
-
-    
 
     #wrapper-contact {
         display: grid;
@@ -173,11 +167,6 @@ textarea {
     #self-image {
         grid-area: self;
     }
-
-    /* #self-image img {
-        width: 205px;
-        height: 205px;
-    } */
 
     #contact-description {
         grid-area: cDescrip;
@@ -235,12 +224,6 @@ textarea {
 
 
 @media (min-width: 1200px) {
-   /* #wrapper-contact {
-        grid-template-areas:
-       
-        "sage-leaf sage-leaf cDescrip cDescrip"
-        ". cForm cForm .";
-    } */
 
     #sage-leaf-logo {
         min-height: 250px;
