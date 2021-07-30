@@ -44,6 +44,7 @@ nav li a:hover {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        border-bottom: 9px solid #bbb;
     }
 
     header h3 {
