@@ -145,12 +145,12 @@ textarea {
 
     #wrapper-contact {
         display: grid;
-        grid-template-columns: repeat(3, 33.3%);
+        grid-template-columns: 30% 10% 60%;
         grid-template-rows: auto;
         grid-template-areas:
         "self self self"
         "cDescrip cDescrip cDescrip"
-        "sage-leaf cForm cForm";
+        "sage-leaf sage-leaf cForm";
         justify-items: center;
         justify-content: space-evenly;
         align-items: center; 
@@ -174,10 +174,10 @@ textarea {
         grid-area: self;
     }
 
-    #self-image img {
+    /* #self-image img {
         width: 205px;
         height: 205px;
-    }
+    } */
 
     #contact-description {
         grid-area: cDescrip;
@@ -208,13 +208,28 @@ textarea {
 }
 
 @media (min-width: 875px) {
-    #self-image img {
-        width: 250px;
-        height: 250px;
+    
+    #wrapper-contact {
+        grid-template-areas:
+        "self cDescrip cDescrip"
+        "sage-leaf sage-leaf cForm";
+    }
+    
+    #self-image, #contact-description {
+        margin-top: 35px;
     }
 
+    #sage-leaf-logo, #contact-form {
+        margin-top: 35px;
+    }
+    
+    #self-image img {
+        width: 175px;
+        height: 175px;
+    } 
+
     #contact-description {
-        font-size: 1.25em;
+        width: 100%;
     }   
 }
 
@@ -230,5 +245,15 @@ textarea {
     #sage-leaf-logo {
         min-height: 250px;
     }
+
+     
+    #self-image img {
+        width: 250px;
+        height: 250px;
+    } 
+
+    #contact-description {
+        font-size: 1.25em;
+    }   
 }
 
